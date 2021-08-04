@@ -1,0 +1,88 @@
+:root {
+  --primary-color: rgb(102, 204, 255);
+  --Heading-font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Menu-Bar {
+  font-weight: 400;
+  font-size: 0.9em;
+  box-sizing: inherit;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  position: fixed;
+  background-color: var(--primary-color);
+  margin-left: 500px;
+}
+
+.top-div {
+  display: flex;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 20px;
+  padding: 0%;
+  font-size: 15px;
+}
+
+li {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 10%;
+  margin: 20px;
+}
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+}
+
+.Middle_header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--Heading-font);
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: 100px;
+}
+
+body {
+  background-color: rgb(226, 198, 74);
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 20px;
+}
+/* Nav links not working
+*/
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #8ac4ff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Menu-Bar {
+    background-color: #ecf574;
+  }
+}
